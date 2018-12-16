@@ -7,12 +7,10 @@
 <title>Insert title here</title>
 
 <script type="text/javascript">
-var str = 'alert(1)()';
+var str = '\<\>alert(1)()\>';
 
 
 
-<!-- 	var str = '<script\>alert(1)\</script\>'; -->
-	
 	window.onload = function(){
 // 		var obj = document.getElementById('test');
 // 		alert(obj.id);
